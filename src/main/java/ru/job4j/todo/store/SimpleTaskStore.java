@@ -85,7 +85,7 @@ public class SimpleTaskStore implements TaskStore {
 
     @Override
     public List<Task> findByStatus(boolean done) {
-         try (Session session = sf.openSession()) {
+        try (Session session = sf.openSession()) {
             return session.createQuery("FROM Task WHERE done=:done ORDER BY created", Task.class)
                     .setParameter("done", done)
                     .getResultList();
