@@ -42,7 +42,9 @@ mvn spring-boot:run
 ## Интерфейс
 ### Список задач
 ![tasklist.png](img/tasklist.png)
-### Карточка задачи
-![task.png](img/task.png)
+### Режим создания/редактирования
+![new.png](img/new.png)
+### Режим просмотра
+![view.png](img/view.png)
 ### Форма входа
 ![login.png](img/login.png)
